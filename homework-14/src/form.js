@@ -29,12 +29,22 @@ class Form extends Component { // Smart Component
 					When did you take your first vaccine?
 				</label>
 				<input type="date" name="date" placeolder="Date you took your vaccine" />
-                <button>
+                <button onclick = "alert()">
 					Submit and find out your second dose date!
 				</button>
+				<script>
+					function alert()
+						{
+							alert("You have successfully submitted your vaccine information. Please wait to be redirected!")
+						}
+				</script>
+	
 			</form>
+			
 		)
 	}
+
+	
 }
 
 
